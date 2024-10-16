@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+:root {
+  --background-color: #FFF;
+  --color-primary: #008F5A;
+  --color-segundary: #98E9AB;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+.erro {
+  color: red;
+  font-weight: 500;
+}
+
+.container_segundary {
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 40px 20px;
+}
+
+.container_segundary form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_segundary form h1 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.p_center {
+  text-align: center;
+}
+
+.container_segundary a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.logo_dolar {
+  margin: 0 auto 10px;
+}
+
+.logo_dolar img {
+  width: 45px;
+}

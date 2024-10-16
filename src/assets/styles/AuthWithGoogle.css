@@ -1,0 +1,22 @@
+.auth_google {
+    padding: 5px 8px;
+    margin: 30px auto 40px;
+
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(148, 148, 148, 0.247);
+    max-width: 250px;
+
+    cursor: pointer;
+}
+
+.auth_google img {
+    width: 25px;
+}
+
+.auth_google span {
+    font-weight: bold;
+    font-size: 13px;
+}

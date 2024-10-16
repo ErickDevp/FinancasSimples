@@ -1,0 +1,102 @@
+.container_home_page {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    position: relative;
+}
+
+.home_page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.container_balance_box {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn_add_transaction {
+    background-color: #ffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn_add_transaction:hover {
+    background-color: #e2e2e2;
+}
+
+.search_home_page {
+    margin-top: 10px;
+    display: flex;
+}
+
+.icon_home_page {
+    width: 40px;
+    height: 40px;
+    background-color: #404040;
+    color:  #fff;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.search_home_page input {
+    font-size: 17px;
+    padding: 0 20px;
+    outline: none;
+    width: 500px;
+
+
+    border: none;
+}
+
+.transaction_history {
+    height: 220px;
+    overflow-y:auto; 
+    overflow-x:auto; 
+
+}
+
+.transaction_history::-webkit-scrollbar {
+    width: 12px;              /* Largura da barra de rolagem */
+    height: 12px;             /* Altura da barra de rolagem horizontal */
+}
+
+.transaction_history::-webkit-scrollbar-track {
+    background: #f0f0f0;      /* Cor do fundo da barra de rolagem */
+    border-radius: 8px;
+}
+
+.transaction_history::-webkit-scrollbar-thumb {
+    background-color: #888;   /* Cor da barra de rolagem */
+    border-radius: 10px;      /* Deixa a barra de rolagem arredondada */
+    border: 3px solid #f0f0f0; /* Deixa um espaço entre a barra e o contêiner */
+}
+
+.transaction_history::-webkit-scrollbar-thumb:hover {
+    background-color: #555;   /* Cor da barra ao passar o mouse */
+}

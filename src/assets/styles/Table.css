@@ -1,0 +1,47 @@
+.table {
+    display: flex;
+}
+
+.tbody{
+    border: 1px solid #008F5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+
+    background-color: #fff;
+    color: #404040;
+}
+
+.thead {
+    background-color: #363636;
+    color: #ffffff;
+}
+
+.table_width {
+    width: 120px;
+}
+
+.icon_trash {
+    width: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trash {
+    background-color: #363636;
+    color: #fff;
+    transition: 300ms;
+    cursor: pointer;
+} 
+
+.trash:hover {
+    background-color: #404040;
+}

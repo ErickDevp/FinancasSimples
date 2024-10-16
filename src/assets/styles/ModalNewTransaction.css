@@ -1,0 +1,82 @@
+.modal {
+    background-color: #00000071;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+.modal_transaction {
+    background-color: #eeeeee;
+    padding: 25px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal_transaction h1 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.modal_transaction section {
+    display: flex;
+    gap: 20px;
+}
+
+.modal_transaction select,
+.modal_transaction div input,
+.modal_transaction section button {
+    width: 100%;
+    outline: none;
+
+    height: 50px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.modal_transaction select,
+.modal_transaction div input,
+.modal_btn_cancelar {
+    border: 1px solid rgba(3, 3, 3, 0.322);
+}
+
+.modal_transaction select,
+.modal_transaction section button {
+    cursor: pointer;
+}
+
+.modal_transaction select:focus,
+.modal_transaction div input:focus {
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.modal_btn {
+    background-color: var(--color-primary);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 300ms;
+}
+
+.modal_btn:hover {
+    background-color: #007248;
+}
+
+.modal_btn_cancelar {
+    transition: 300ms;
+}
+
+.modal_btn_cancelar:hover {
+    background-color: #00000010;
+}
+

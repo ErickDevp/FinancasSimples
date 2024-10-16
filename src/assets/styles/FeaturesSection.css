@@ -1,0 +1,42 @@
+.features_section {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 60px 0 0;
+}
+
+.features_section > h1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.features_section > h1 span {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.info_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.bar {
+    background-color: var(--color-primary);
+    width: 100%;
+    padding: 3px;
+    border-radius: 100px;
+}
+
+@media (min-width: 620px) {
+    .features_section > h1{
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 820px) {
+    .features_section > h1 {
+        font-size: 35px;
+    }
+}

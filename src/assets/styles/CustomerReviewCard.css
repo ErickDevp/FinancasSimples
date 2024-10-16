@@ -1,0 +1,29 @@
+.review_card {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.feedback {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.icon_feedback {
+    color: #fff;
+    font-size: 40px;
+}
+
+.icon_aspas {
+    font-size: 20px;
+}
+
+.name {
+    font-size: 14px;
+}

@@ -1,0 +1,24 @@
+.error_modal {
+    background-color: #e32636;
+    color: #fff;
+    
+    padding: 10px 5px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    position: absolute;
+    top: -100px; 
+    right: 0;
+    left: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: top 0.5s ease;
+}
+
+.show {
+    top: 0;
+}

@@ -1,0 +1,87 @@
+.sidebar {
+    width: 200px;
+    background-color: #ffff;
+    height: 100dvh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.infos_user {
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #008F5A;
+}
+
+.infos_user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+}
+
+.wallets {
+    padding: 15px 0;
+}
+
+.container_wallet h2 {
+    font-size: 22px;
+}
+
+.investment_types_list {
+    padding: 5px 0;
+    list-style: none;
+}
+
+.investment_types_list a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.investment_types_list li {
+    padding: 5px;
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 300ms;
+
+}
+
+.investment_types_list li:hover {
+    background-color: #c5c5c5;
+}
+
+.container_btn_logout {
+    padding-top: 15px;
+    border-top: 2px solid #008F5A;
+}
+
+.container_btn_logout button {
+    font-weight: bold;
+    font-size: 20px;
+
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+    color: #ffff;
+    background-color: #008F5A;
+
+    width: 100%;
+    padding: 8px;
+
+    border: none;
+    border-radius: 10px;
+
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.container_btn_logout button:hover {
+    background-color: #007449;
+
+}

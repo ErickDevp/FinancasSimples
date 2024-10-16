@@ -1,0 +1,17 @@
+.content_block {
+    margin: 0 auto;
+    max-width: 270px;
+    text-align: center;
+
+    padding: 10px 0 20px;
+}
+
+.content_block h1 {
+    color: var(--color-primary);
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.content_block p {
+    font-size: 18px;
+}

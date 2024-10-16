@@ -1,0 +1,42 @@
+.feedback_section {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 60px 0;
+
+}
+
+.feedback_section h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.feedback_section span {
+    color: #fff;
+}
+
+.feedbacks {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 620px) {
+    .feedback_section h1 {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 820px) {
+    .feedback_section h1 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1057px) {
+    .feedback_section {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
